@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace"
+}
