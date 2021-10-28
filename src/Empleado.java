@@ -6,8 +6,8 @@ public class Empleado {
     String labor;
     String respuesta;
 
-    public Empleado(String nombre, String labor) {
-        this.nombre = nombre;
+    public Empleado(String name, String labor) {
+        nombre = name;
         this.labor = labor;
     }
 
