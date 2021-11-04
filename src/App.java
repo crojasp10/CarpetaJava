@@ -1,4 +1,11 @@
+import EjercicioPedidos.Cliente;
+import Inheritance.Cat;
+import Inheritance.Chihuahua;
+import Inheritance.Dog;
+import Inheritance.Mammals;
+
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,24 +47,40 @@ public class App {
 
             pruebasGe.fizzBuzz(15);
             var  Empleado1 = new Empleado("Bojana", "llamar");
-*/
+
+
+        LinkedInClass newLinkedClass = new LinkedInClass();
+        newLinkedClass.formateandoValores();
+
+
+        LinkedInClass.crearMap();
 
 
 
+        Dog dog = new Dog(4,"guau",30);
+                dog.characteristic();
+
+            Cat cat = new Cat(4,"meow",true);
+            cat.characteristic();
+                System.out.println(cat.whatSound());
+
+                Mammals mammal = new Mammals(4,"rwww");
+                System.out.println(mammal.howManyPaws());
+
+            Chihuahua myPet = new Chihuahua(4,"guau",22,"Dollar");
+            System.out.println(myPet.howManyPaws());
+
+myPet.characteristic();
+
+ */
+
+            Cliente cliente = new Cliente();
+
+            cliente.iniciarPedido();
 
 
-            UsuarioJuego miUsuario = new UsuarioJuego("Jhon","abcdj1233");
-
-
-
-            miUsuario.aumentarNivel();
-            miUsuario.aumentarNivel();
-            miUsuario.aumentarPuntaje();
-            miUsuario.aumentarPuntaje();
-            miUsuario.bonus(5);
-            System.out.println(miUsuario.getNivel());
-            System.out.println(miUsuario.getPuntaje());
 
 
         }
+
 }
