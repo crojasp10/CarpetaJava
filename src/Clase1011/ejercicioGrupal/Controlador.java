@@ -16,7 +16,7 @@ public class Controlador {
 
 
 
-        CajaAhorro miCaja = new CajaAhorro(cliente,1000,0.2);
+        CajaAhorro miCaja = new CajaAhorro(cliente,1.000,0.2);
         miCaja.informar();
         miCaja.depositarEfectivo(1000);
         miCaja.extraerEfectivo(150);
