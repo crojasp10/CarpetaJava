@@ -72,13 +72,14 @@ public class App {
 
 myPet.characteristic();
 
- */
-
             Cliente cliente = new Cliente();
 
             cliente.iniciarPedido();
 
+ */
 
+
+            pruebasGe.fizzBuzz(15);
 
 
         }
